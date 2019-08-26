@@ -1,14 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     padding: 0;
     margin: 0;
 }
-h1,h2,h3,h4,h5,h6,p {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     padding: 0;
     margin: 0;
 }
+
 h2 {
     text-align: center;
     text-transform: uppercase;
@@ -17,6 +26,7 @@ h2 {
     font-family: GothamProBold;
     margin-bottom: 60px;
 }
+
 .container {
     max-width: 960px;
     padding-right: 10px;
@@ -24,6 +34,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .btn-yellow {
     color: #0d0d0d;
     font-family: GothamProMedium;
@@ -34,35 +45,43 @@ h2 {
     border: none;
     transition: all .1s;
 }
+
 .btn-yellow:hover {
     border: 2px solid #ffd200;
     background: none;
     color: #fff;
 }
+
 ul {
     padding: 0;
     margin: 0;
 }
+
 ul li {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
     color: #000
 }
+
 button {
     outline: none;
 }
+
 /* Header */
 header {
     padding-top: 25px;
 }
+
 .header-content_top {
     display: flex;
     justify-content: space-between;
 }
+
 .header-logo p {
     font-family: GothamProBold;
     font-size: 20px;
@@ -71,12 +90,14 @@ header {
     padding-left: 50px;
     text-transform: uppercase;
 }
+
 .header-logo p small {
     font-family: GothamProLight;
     font-size: 11px;
     color: #969696;
     text-transform: initial;
 }
+
 .header-logo::before {
     content: '';
     display: inline-block;
@@ -85,6 +106,7 @@ header {
     position: absolute;
     background: url(../img/header/logo.svg) no-repeat center center;
 }
+
 .header-info p {
     font-family: GothamProBold;
     font-size: 18px;
@@ -94,11 +116,13 @@ header {
     padding-right: 30px;
     line-height: 20px;
 }
+
 .header-info p small {
     font-family: GothamProMedium;
     font-size: 11px;
     color: #969696;
 }
+
 .header-info button {
     vertical-align: top;
     height: 40px;
@@ -112,10 +136,12 @@ header {
     transition: all .1s;
     min-width: 160px;
 }
+
 .header-info button:hover {
     background-color: #292929;
     color: #fff;
 }
+
 .header-content_bottom {
     min-height: 60px;
     background-color: #ffcc00;
@@ -128,10 +154,12 @@ header {
     position: relative;
     top: 30px;
 }
+
 .header-nav ul {
     display: flex;
     justify-content: space-between;
 }
+
 /* Section Main Info */
 #main-info {
     min-height: 550px;
@@ -139,12 +167,14 @@ header {
     background-size: cover;
     padding-top: 170px;
 }
+
 .main-info_content h1 {
     font-size: 36px;
     color: #fff;
     font-family: GothamProBold;
     text-transform: uppercase;
 }
+
 .main-info_content p {
     color: #fff;
     font-family: GothamProLight;
@@ -152,33 +182,40 @@ header {
     line-height: 22px;
     margin-top: 45px;
 }
+
 .more-info {
     margin-top: 60px;
 }
+
 .more-info button {
     min-width: 200px;
 }
+
 .more-info span {
     color: #fff;
     font-family: GothamProLight;
     font-size: 12px;
     padding-left: 30px;
 }
+
 .more-info span a {
     color: #fff;
     text-decoration: underline;
     font-family: GothamProMedium;
 }
+
 /* Section Catalogue */
 #catalogue {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .catalogue-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .item {
     width: 300px;
     height: 470px;
@@ -188,15 +225,19 @@ header {
     padding-left: 35px;
     padding-top: 35px;
 }
+
 .item-image {
-    min-height: 130px;
+    height: 130px;
 }
+
 .item-image img {
     width: 100%;
 }
+
 .item:nth-child(3) img {
     height: 110px;
 }
+
 .item-title h3 {
     font-size: 15px;
     font-family: GothamProMedium;
@@ -205,38 +246,46 @@ header {
     border-bottom: 1px solid #c9c9c9;
     margin-bottom: 18px;
 }
+
 .item-description p {
     color: #626262;
     font-size: 13px;
     font-family: GothamProLight;
     margin-bottom: 30px;
 }
+
 .item-price p {
     font-size: 16px;
     font-family: GothamProMedium;
     color: #0f0f0f;
     margin-bottom: 35px;
 }
+
 .item-btn {
     padding-right: 23px;
     padding-left: 23px;
 }
+
 .item-btn button {
     width: 100%;
 }
+
 .item-btn button:hover {
     color: #000;
 }
+
 /* Section Advantages */
 #advantages {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #f4f4f4;
 }
+
 .advantages-content {
     display: flex;
     justify-content: space-between;
 }
+
 .advantage {
     text-align: center;
     width: 300px;
@@ -248,19 +297,23 @@ header {
     padding-left: 25px;
     color: #292929;
 }
+
 .advantage:nth-child(3) {
     background-color: #fff;
-    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.05);  
+    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.05);
 }
+
 .advantage-image {
     min-height: 54px;
 }
+
 .advantage-title {
     margin-top: 30px;
     margin-bottom: 20px;
     font-family: GothamProMedium;
     font-size: 15px;
 }
+
 .advantage-description {
     font-family: GothamProLight;
     font-size: 13px;
@@ -272,11 +325,13 @@ header {
     padding-bottom: 80px;
     background-color: #fff;
 }
+
 .popular-items_content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .pop-item {
     width: 220px;
     height: 345px;
@@ -285,9 +340,11 @@ header {
     padding-top: 20px;
     margin-top: 15px;
 }
+
 .pop-img {
     min-height: 155px;
 }
+
 .pop-img span {
     height: 23px;
     width: 55px;
@@ -303,52 +360,60 @@ header {
     margin-left: 10px;
     margin-top: 10px;
 }
+
 .pop-title h3 {
     font-size: 13px;
     font-family: GothamProMedium;
     font-weight: normal;
     margin-top: 15px;
 }
+
 .pop-price {
     margin-bottom: 20px;
     margin-top: 25px;
     font-family: GothamProMedium;
     font-size: 16px;
 }
+
 .pop-item.sale p {
     color: #ff0000;
 }
+
 .pop-price span {
     font-size: 10px;
     text-decoration: line-through;
     color: #979797;
 }
+
 .pop-btn button {
     width: 100%;
 }
+
 .pop-btn button:hover {
     color: #000;
 }
+
 .pop-btn {
     padding-right: 18px;
     padding-left: 18px;
 }
+
 .pop-item:nth-child(3) {
     height: 360px;
 }
+
 /* Section Services */
-/* #main-info, #catalogue, #advantages, #popular-items {
-    display: nsdsdsdsdsdone;
-} */
 #services {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #f4f4f4;
 }
+
 .services-content {
     display: flex;
     justify-content: space-between;
 }
+
 .service {
     text-align: center;
     font-family: GothamProMedium;
@@ -357,11 +422,194 @@ header {
     width: 300px;
     height: 253px;
     padding-top: 45px;
+    transition: all .2s;
+    cursor: pointer;
 }
+
+.service:hover {
+    opacity: .6;
+    border: 2px solid;
+}
+
 .service-img {
     height: 129px;
 }
+
 .service-title h3 {
     display: inline-block;
     border-bottom: 1px solid #c1c1c1;
+}
+
+/* Section Contacts */
+#contacts {
+    min-height: 520px;
+    background: url(../img/contacts/contacts-background.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: flex-end;
+    color: #292929;
+}
+
+.contacts-info {
+    width: 380px;
+    height: 360px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.contact-title h3 {
+    font-family: GothamProBold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact-telephone {
+    margin-top: 50px;
+}
+
+.contact-telephone p {
+    font-size: 14px;
+    padding-left: 25px;
+    font-family: GothamProMedium;
+}
+
+.contact-telephone::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-top: 2px;
+    background: url(../img/contacts/phone-icons.png);
+}
+
+.contact-place {
+    margin-top: 40px;
+    font-family: GothamProMedium;
+    font-size: 14px;
+}
+
+.contact-place p {
+    padding-left: 25px;
+}
+
+.contact-place::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    margin-top: 2px;
+    background: url(../img/contacts/pin-icon.png);
+}
+
+.contact-email a {
+    font-family: GothamProMedium;
+    font-size: 14px;
+    text-decoration: underline;
+    display: block;
+    padding-left: 25px;
+}
+
+.contact-email {
+    margin-top: 40px;
+}
+
+.contact-email::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    margin-top: 3px;
+    background: url(../img/contacts/email-icon.png);
+}
+
+footer {
+    min-height: 196px;
+    background-color: #292929;
+    padding-bottom: 45px;
+    padding-top: 50px;
+}
+
+.footer-content_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copy span {
+    color: #fff;
+    font-size: 12px;
+    font-family: GothamProMedium;
+    font-weight: normal;
+}
+
+.footer-content_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-logo p {
+    font-family: GothamProBold;
+    font-size: 20px;
+    color: #fff;
+    line-height: 19px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+
+.footer-logo p small {
+    font-family: GothamProLight;
+    font-size: 11px;
+    color: #fff;
+    text-transform: initial;
+}
+
+.footer-logo::before {
+    content: '';
+    display: inline-block;
+    width: 38px;
+    height: 40px;
+    position: absolute;
+    background: url(../img/footer/footer-logo.svg) no-repeat center center;
+}
+
+.footer-info p {
+    font-family: GothamProBold;
+    font-size: 18px;
+    color: #fff;
+    text-align: right;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.footer-info p small {
+    font-family: GothamProMedium;
+    font-size: 11px;
+    color: #fff;
+}
+
+.footer-copy {
+    align-self: flex-end;
+}
+
+.footer-btn button {
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+}
+
+.footer-btn button:hover {
+    background-color: #ffd200;
+    color: #000;
+    border: none;
 }

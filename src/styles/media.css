@@ -3,81 +3,131 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
     #catalogue .catalogue-content .item {
         margin-left: 10px;
         margin-top: 10px;
     }
 }
+
 @media (max-width: 919px) {
     #services .services-content {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     #services .service {
         margin-top: 15px;
     }
 }
+
 @media (max-width: 868px) {
     #advantages .advantages-content {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     #advantages .advantage {
         margin-top: 15px;
     }
 }
+
 @media (max-width: 768px) {
     header .header-content_top {
         flex-direction: column;
         align-items: center;
     }
+
     header .header-info {
         margin-top: 25px;
     }
 }
+
 @media (max-width: 679px) {
     #popular-items .pop-item {
         width: 250px;
     }
 }
+
 @media (max-width: 660px) {
     header .header-content_bottom ul {
         flex-direction: column;
         align-items: center;
     }
+
     header .header-content_bottom ul li {
         margin-top: 10px;
     }
 }
+
 @media (max-width: 619px) {
     #catalogue .catalogue-content .item {
         margin-left: 0px;
     }
 }
+
 @media (max-width: 576px) {
     #popular-items .popular-items_content {
         justify-content: space-around;
     }
+
+    #contacts .contacts-content {
+        justify-content: center;
+    }
+
+    #contacts .contacts-info {
+        padding-left: 30px;
+        padding-top: 45px;
+    }
+
+    footer .footer-content_top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-content_bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-copy {
+        align-self: center;
+        margin-top: 25px;
+    }
+
+    footer .footer-btn {
+        margin-top: 15px;
+    }
+
+    footer .footer-info p {
+        margin-top: 15px;
+        text-align: center;
+    }
 }
+
 @media (max-width: 519px) {
     #popular-items .pop-item {
         width: 80%;
     }
 }
+
 @media (max-width: 440px) {
     header .header-info {
         margin-top: 20px;
     }
+
     header .header-info p {
         display: block;
         padding: 0;
         margin-bottom: 10px;
         text-align: center;
     }
+
     header .header-info button {
         width: 100%;
     }
 }
+
 @media (max-width: 420px) {
     #main-info .more-info span {
         display: block;
