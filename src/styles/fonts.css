@@ -1,0 +1,16 @@
+@font-face {
+    font-family: GothamPro; /* Имя шрифта */
+    src: url(../fonts/GothamPro.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GothamProBold; /* Имя шрифта */
+    src: url(../fonts/GothamPro-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GothamProLight; /* Имя шрифта */
+    src: url(../fonts/GothamPro-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GothamProMedium; /* Имя шрифта */
+    src: url(../fonts/GothamPro-Medium.ttf); /* Путь к файлу со шрифтом */
+}
